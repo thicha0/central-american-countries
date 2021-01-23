@@ -8,14 +8,9 @@
             class="panel"
         >
             <div :style="backgroundStyle(item, index)"></div>
-            <div :style="gradientStyle(index)"></div> <!-- TODO optional -->
-            <h3 :style="titleStyle(index)">{{ item.title }}</h3> <!-- TODO slot -->
-            <p :style="textStyle(index)"> <!-- TODO slot -->
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                A consequuntur, cum cupiditate doloremque dolorum eius fuga
-                fugiat illum ipsum laudantium molestias nihil non officia
-                optio quos repellat sint veniam voluptatem.
-            </p>
+            <div :style="gradientStyle(index)"></div>
+            <h3 :style="titleStyle(index)">{{ item.title }}</h3>
+            <p :style="textStyle(index)">{{ item.text }}</p>
         </div>
     </div>
 </template>
@@ -73,7 +68,27 @@
             grayscaleInactive: {
                 type: String,
                 default: '65%'
-            }
+            },
+
+            // Title
+            titleColor: {
+                type: String,
+                default: 'white'
+            },
+            titleSize: {
+                type: String,
+                default: '24px'
+            },
+
+            // Text
+            textColor: {
+                type: String,
+                default: 'white'
+            },
+            textSize: {
+                type: String,
+                default: '20px'
+            },
         },
         methods: {
             containerStyle () {
@@ -126,7 +141,6 @@
 
                     // Transition(s)
                     'transition':   'filter 1s ease',
-                    //TODO: transparentize ?
                 }
             },
             gradientStyle (index) {
@@ -142,28 +156,27 @@
                     'background':
                         index === this.activeIndex ?
                             'linear-gradient(to bottom, rgba(0,0,0,0) 20%,rgba(0,0,0,1) 95%)'
-                            : '', // TODO custom gradient
+                            : '',
 
                     // Transition
                     'opacity':      index === this.activeIndex ? 1 : 0,
                     'transform':    index === this.activeIndex ?
                         'translateY(0)' :
                         'translateY(100px)',
-                    'transition':   'all 0.3s ease-in ' + this.flexTransitionDuration, // TODO delay
+                    'transition':   'all 0.3s ease-in ' + this.flexTransitionDuration,
                 }
             },
             titleStyle (index) {
                 return {
-                    // TODO showTitle
                     // Default
                     'position':     'absolute',
                     'margin':       0,
-
-                    // Props TODO
-                    'color':        'white',
-                    'font-size':    '24px',
                     'bottom':       '20px',
                     'left':         '20px',
+
+                    // Props
+                    'color':        this.titleColor,
+                    'font-size':    this.titleSize,
 
                     // Transition
                     'opacity':      index === this.activeIndex ? 1 : 0,
@@ -178,8 +191,8 @@
                     'margin':       '0 10%',
 
                     // Props TODO
-                    'color':        'white',
-                    'font-size':    '20px',
+                    'color':        this.textColor,
+                    'font-size':    this.textSize,
 
                     // Transition
                     'opacity':      index === this.activeIndex ? 1 : 0,
