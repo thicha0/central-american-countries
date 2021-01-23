@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.panel {
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  height: 100vh;
+}
+
+.background {
+  // Full size
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  // Background
+  background-size: cover; // TODO size ok ??
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.gradient {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.title {
+  position: absolute;
+  margin: 0;
+  bottom: 20px;
+  left: 20px;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  margin: 0 10%;
+}

@@ -1,7 +1,9 @@
 <template>
     <div>
         <h1>Expand</h1>
-        <expand-component :items="items"></expand-component>
+        <div style="width: 90vw;">
+            <expand-component :items="items"></expand-component>
+        </div>
     </div>
 </template>
 

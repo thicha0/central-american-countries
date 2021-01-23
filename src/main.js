@@ -4,6 +4,9 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+// Global style
+import '@/assets/styles/styles.scss'
+
 new Vue({
   router,
   render: h => h(App)

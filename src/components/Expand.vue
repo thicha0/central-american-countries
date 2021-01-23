@@ -1,16 +1,16 @@
 <template>
-    <div :style="containerStyle()">
+    <div class="container" :style="containerStyle()">
         <div
             v-for="(item, index) in items"
             :key="index"
             @click="activeIndex = index"
-            :style="panelStyle(item, index)"
             class="panel"
+            :style="panelStyle(item, index)"
         >
-            <div :style="backgroundStyle(item, index)"></div>
-            <div :style="gradientStyle(index)"></div>
-            <h3 :style="titleStyle(index)">{{ item.title }}</h3>
-            <p :style="textStyle(index)">{{ item.text }}</p>
+            <div class="background" :style="backgroundStyle(item, index)"></div>
+            <div class="gradient" :style="gradientStyle(index)"></div>
+            <h3 class="title" :style="titleStyle(index)">{{ item.title }}</h3>
+            <p class="text" :style="textStyle(index)">{{ item.text }}</p>
         </div>
     </div>
 </template>
@@ -93,21 +93,11 @@
         methods: {
             containerStyle () {
                 return {
-                    // Default
-                    'display':    'flex',
-
-                    // Props
                     'width':      this.width,
                 }
             },
             panelStyle (item, index) {
                 return {
-                    // Default
-                    'overflow':     'hidden',
-                    'position':     'relative',
-                    'cursor':       'pointer',
-
-                    // Props
                     'height':           this.height,
                     'border-radius':    this.borderRadius,
                     'margin':           this.margin,
@@ -121,18 +111,6 @@
             },
             backgroundStyle (item, index) {
                 return {
-                    // Full size
-                    'position':     'absolute',
-                    'height':       '100%',
-                    'width':        '100%',
-                    'top':          0,
-                    'left':         0,
-
-                    // Background
-                    'background-size':      'cover', // TODO size ok ??
-                    'background-position':  'center center',
-                    'background-repeat':    'no-repeat',
-
                     // Props
                     'background-image':     item.background,
                     'filter': index === this.activeIndex ?
@@ -145,13 +123,6 @@
             },
             gradientStyle (index) {
                 return {
-                    // Full size
-                    'position':     'absolute',
-                    'height':       '100%',
-                    'width':        '100%',
-                    'top':          0,
-                    'left':         0,
-
                     // Background
                     'background':
                         index === this.activeIndex ?
@@ -168,12 +139,6 @@
             },
             titleStyle (index) {
                 return {
-                    // Default
-                    'position':     'absolute',
-                    'margin':       0,
-                    'bottom':       '20px',
-                    'left':         '20px',
-
                     // Props
                     'color':        this.titleColor,
                     'font-size':    this.titleSize,
@@ -185,11 +150,6 @@
             },
             textStyle (index) {
                 return {
-                    // Default
-                    'position':     'absolute',
-                    'top':          '50%',
-                    'margin':       '0 10%',
-
                     // Props TODO
                     'color':        this.textColor,
                     'font-size':    this.textSize,
