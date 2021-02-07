@@ -1,9 +1,11 @@
 <template>
     <div>
         <h1>Expand</h1>
-        <div style="width: 90vw;">
-            <expand-component :items="items"></expand-component>
-        </div>
+        <expand-component
+            :items="items"
+            width="90vw"
+            height="70vh"
+        />
     </div>
 </template>
 
@@ -20,7 +22,7 @@
                 items: [
                     {
                         title: 'Explore the world',
-                        text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.',
+                        text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.',
                         background: 'url(\'https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80\')'
                     },
                     {

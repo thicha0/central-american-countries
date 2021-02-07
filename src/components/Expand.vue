@@ -24,39 +24,28 @@
             }
         },
         props: {
-            // Data
             items: { // TODO validator
                 type: Array,
                 default: () => []
             },
-
-            // Container
-            width: { // TODO leave ?
+            width: {
                 type: String,
                 default: '90vw'
             },
-
-            // Panel
-            height: { // TODO leave ?
+            height: {
                 type: String,
                 default: '80vh'
-            },
-
-            // Panel flex
-            flexTransitionDuration: {
-                type: String,
-                default: '1.4s'
             },
         },
         methods: {
             containerStyle () {
                 return {
-                    'width':      this.width,
+                    'width': this.width,
                 }
             },
             panelStyle () {
                 return {
-                    'height':           this.height,
+                    'height': this.height,
                 }
             },
         }
