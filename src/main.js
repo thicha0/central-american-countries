@@ -4,8 +4,9 @@ import router from './router'
 
 Vue.config.productionTip = false
 
-// Global style
+// Global styles
 import '@/assets/styles/expand.scss'
+import '@/assets/styles/svg.scss'
 
 new Vue({
   router,

@@ -1,13 +1,21 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+  <div>
+    <CentralAmericaSVG />
   </div>
 </template>
 
 <script>
+import CentralAmericaSVG from '@/components/CentralAmericaSVG.vue'
 
 export default {
   name: 'Home',
+  components: {
+    CentralAmericaSVG,
+  },
+  created () {
+    var svg = document.getElementsByTagName('svg')[0]
+    console.log(svg)
+  },
 }
 </script>
 
