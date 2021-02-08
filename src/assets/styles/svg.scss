@@ -10,16 +10,16 @@ path {
     fill-rule: evenodd;
     stroke: #fff;
     stroke-width: 0.5;
+    cursor: pointer;
 }
 
-.landxx:hover, .country-name:hover {
+.landxx:hover {
     fill: #f9bc60;
     opacity: 1;
-}
 
-.landxx:hover + .country-name {
-    opacity: 1;
-    
+    &+.country-name {
+        opacity: 1;
+    }
 }
 
 .country-name {

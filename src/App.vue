@@ -1,11 +1,12 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/expand">Expand</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
+    <div id="footer">
+      <router-link to="/">🗺️ Map</router-link>
+      <a href="#">💾 Repository</a>
+      <router-link to="/about">❓ About</router-link>
+      Made with ❤️
+    </div>
   </div>
 </template>
 
@@ -22,16 +23,22 @@ body {
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
+#footer {
+  position: fixed;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 100%;
 }
 
-#nav a {
+#footer a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #001e1d;
+  text-decoration: none;
+  margin: 0 1%;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+#footer a.router-link-exact-active {
+  border-bottom: 1px solid #001e1d;
 }
 </style>

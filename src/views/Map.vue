@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>Countries of Central America</h1>
     <CentralAmericaSVG />
   </div>
 </template>

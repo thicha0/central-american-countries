@@ -1,18 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Expand from '@/views/Expand.vue'
+import Country from '@/views/Country.vue'
 import About from '@/views/About.vue'
-import Home from '@/views/Home.vue'
+import Map from '@/views/Map.vue'
 
 
 Vue.use(VueRouter)
 
 const routes = [
-  {
-    path: '/expand',
-    name: 'expand',
-    component: Expand
-  },
   {
     path: '/about',
     name: 'about',
@@ -20,9 +15,14 @@ const routes = [
   },
   {
     path: '/',
-    name: 'home',
-    component: Home
+    name: 'map',
+    component: Map
   },
+  {
+    path: '/country/:country',
+    name: 'country',
+    component: Country
+  }
 ]
 
 const router = new VueRouter({
