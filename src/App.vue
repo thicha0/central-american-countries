@@ -11,7 +11,7 @@
 
 <style>
 body {
-  background-color: lightblue;
+  background-color: #f2f7f5;
 }
 
 #app {
