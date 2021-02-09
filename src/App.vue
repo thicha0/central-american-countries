@@ -37,8 +37,4 @@ body {
   text-decoration: none;
   margin: 0 1%;
 }
-
-#footer a.router-link-exact-active {
-  border-bottom: 1px solid #001e1d;
-}
 </style>

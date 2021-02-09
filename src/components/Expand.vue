@@ -24,7 +24,7 @@
             }
         },
         props: {
-            items: { // TODO validator
+            items: {
                 type: Array,
                 default: () => []
             },

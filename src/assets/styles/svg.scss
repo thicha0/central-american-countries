@@ -5,6 +5,39 @@
     -ms-transition: $transition;
 }
 
+@mixin transform ($transform) {
+    transform: $transform;
+    -webkit-transform: $transform;
+    -moz-transform: $transform;
+    -ms-transform: $transform;
+  }
+
+#map {
+    position: absolute;
+    width: 96%;
+    margin: 0;
+    left: 1%;
+    top: 2%;
+    @include transition(all 1s ease);
+    z-index: 1;
+}
+
+.minimap {
+    height: 50px;
+    width: 50px !important;
+    pointer-events: fill !important;
+    cursor: pointer;
+}
+
+.selectedCountry {
+    fill: #f9bc60 !important;
+    opacity: 1;
+}
+
+.unhoverable {
+    pointer-events: none;
+}
+
 path {
     fill: #abd1c6;
     fill-rule: evenodd;
