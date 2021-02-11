@@ -13,20 +13,47 @@
   }
 
 #map {
-    position: absolute;
-    width: 96%;
+    width: 100%;
     margin: 0;
     left: 1%;
     top: 2%;
     @include transition(all 1s ease);
+    position: absolute;
     z-index: 1;
+}
+
+#back {
+    margin-top: 15px;
+    position: absolute;
+    left: 1%;
+    top: 2%;
+    white-space: nowrap;
+    font-style: normal;
+    font-weight: bold;
+    text-anchor: start;
+    font-family: sans-serif;
+    margin-left: 50px;
+    opacity: 0;
+    pointer-events: fill !important;
+    cursor: pointer;
 }
 
 .minimap {
     height: 50px;
     width: 50px !important;
+    @include transition(all 1s ease);
+    top: 0;
+    left: 0;
+    position: absolute;
     pointer-events: fill !important;
     cursor: pointer;
+
+    &:hover {
+        ~ #back {
+            opacity: 1;
+            @include transition(opacity 0.5s ease);
+        }
+    }
 }
 
 .selectedCountry {

@@ -1,9 +1,10 @@
 <template>
+  <div>
   <svg
     id="map"
     @click="backToMap"
     viewBox="0 0 115 104"
-    height="600"
+    height="80vh"
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
   >
@@ -101,6 +102,10 @@
       </g>
     </g>
   </svg>
+  <a id="back" @click="backToMap">
+      Back to the map
+  </a>
+  </div>
 </template>
 
 <script>
@@ -118,8 +123,10 @@ export default {
       this.$emit("countrySelected", event.target.id);
     },
     backToMap(event) {
-      if (event.target.id === "map") {
-        event.target.classList.remove("minimap");
+      let id = event.target.id
+      if (id === "map" || id === "back") {
+        let svg = document.getElementById("map");
+        svg.classList.remove("minimap");
         let paths = document.getElementsByClassName("landxx");
         paths.forEach((path) => {
           path.classList.remove("unhoverable");
