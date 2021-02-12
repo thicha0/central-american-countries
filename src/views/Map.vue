@@ -2,7 +2,7 @@
   <div>
     <CentralAmericaSVG @countrySelected="showCountry" />
     <div v-if="this.countrySelected"> <!-- TODO change v-if -> css ? -->
-      <h1>{{ capitalizedTitle }}</h1>
+      <h1 id="countryTitle">{{ capitalizedTitle }}</h1>
       <expand-component :items="items" width="90vw" height="80vh" />
     </div>
   </div>
