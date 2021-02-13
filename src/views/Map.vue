@@ -1,8 +1,11 @@
 <template>
   <div>
     <CentralAmericaSVG @countrySelected="showCountry" />
-    <div v-if="this.countrySelected"> <!-- TODO change v-if -> css ? -->
-      <h1 id="countryTitle">{{ capitalizedTitle }}</h1>
+    <div v-if="this.title"> <!-- TODO change v-if -> css ? -->
+      <h1 id="countryTitle">
+        <img :src="flag" />
+        {{ title }}
+      </h1>
       <expand-component :items="items" width="90vw" height="80vh" />
     </div>
   </div>
@@ -12,14 +15,6 @@
 import CentralAmericaSVG from "@/components/CentralAmericaSVG.vue";
 import ExpandComponent from "@/components/Expand.vue";
 
-import belize from "@/data/belize.json";
-import costarica from "@/data/costarica.json";
-import guatemala from "@/data/guatemala.json";
-import honduras from "@/data/honduras.json";
-import nicaragua from "@/data/nicaragua.json";
-import panama from "@/data/panama.json";
-import salvador from "@/data/salvador.json";
-
 export default {
   name: "Home",
   components: {
@@ -28,7 +23,9 @@ export default {
   },
   data() {
     return {
-      countrySelected: null,
+      title: null,
+      items: null,
+      flag: null,
     };
   },
   computed: {
@@ -41,29 +38,15 @@ export default {
   },
   methods: {
     showCountry(country) {
-      switch (country) {
-        case "belize":
-          this.items = belize;
-          break;
-        case "costarica":
-          this.items = costarica;
-          break;
-        case "guatemala":
-          this.items = guatemala;
-          break;
-        case "honduras":
-          this.items = honduras;
-          break;
-        case "nicaragua":
-          this.items = nicaragua;
-          break;
-        case "panama":
-          this.items = panama;
-          break;
-        case "salvador":
-          this.items = salvador;
-          break;
-      }
+      import("@/data/" + country + ".json").then(data => {
+        this.title = data.default.countryName
+        this.flag = "https://www.countryflags.io/" + data.default.countryCode + "/flat/64.png"
+        this.items = data.default.data
+      }).catch(() => {
+        this.title = null
+        this.flag = null
+        this.items = null
+      });
       this.countrySelected = country;
     },
   },
