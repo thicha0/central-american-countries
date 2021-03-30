@@ -3,28 +3,28 @@
     "countryCode" : "bz",
     "data": [
         {
-            "title": "Belize",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
-            "background": "url('https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')"
+            "title": "English",
+            "text": "When you think of Central American countries, you might expect their official language to be Spanish. Surprisingly enough, in Belize, the official language is... English ! \n Other languages are also recognized (Kriol, Spanish, Garifuna, Maya...) but as Belize was a colony of the Crown until 1981, it has inherited its language. Since its independance, it has become a member of the Commonwealth.",
+            "background": "url('https://cdn.pixabay.com/photo/2016/12/15/01/27/british-flag-1907933_960_720.jpg')"
         },
         {
-            "title": "Wild Forest",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
-            "background": "url('https://images.unsplash.com/photo-1572276596237-5db2c3e16c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')"
+            "title": "Belmopan",
+            "text": "The former capital of Belize, Belize City, is located on the coast and has been devastated by Hurricane Hattie in 1961 (half of the city was destroyed). Thus, in 1970, the government moved to Belmopan, a new-built city situated inland. The name of the city comes from the union of the Belize and the Mopan rivers.",
+            "background": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Belmopan_Belize_View.jpg/1024px-Belmopan_Belize_View.jpg')"
         },
         {
-            "title": "Sunny Beach",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
-            "background": "url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80')"
+            "title": "The Great Blue Hole",
+            "text": "The Great Blue Hole bears its name well. It is a marine hole located off the coast of Belize in the atoll of Lighthouse Reef. It is a circular hole of 124m deep. It is a popular spot for tourism and scuba diving.",
+            "background": "url('https://upload.wikimedia.org/wikipedia/commons/6/61/Great_Blue_Hole.jpg')"
         },
         {
-            "title": "City on Winter",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "Mixed culture",
+            "text": "Belize is a unique place where several cultures met. As of its location, it has a mix of Central American (Maya, Garifuna) and Carribean (Creole) cultures but it also got influenced by Spanish and British cultures due to the colonization.",
             "background": "url('https://images.unsplash.com/photo-1551009175-8a68da93d5f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80')"
         },
         {
-            "title": "Mountains - Clouds",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "Coral reef",
+            "text": "The Belize Coral Reef is part of the Mesoamerican Barrier Reef System which is the second largest coral reef system in the world after the Great Barrier Reef in Australia.",
             "background": "url('https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')"
         }
     ]

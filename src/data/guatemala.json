@@ -3,28 +3,28 @@
     "countryCode" : "gt",
     "data": [
         {
-            "title": "Maya",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "Maya Civilization",
+            "text": "Guatemala was home to the great Mayan civilization. About 40 % of Guatemalans are of Mayan descent and the Mayan culture has still an huge role within the country. Furthermore, the remains of this civilization display its greatness and we can still be fascinated by their beliefs, their societies and their knowlegde (especially in the mathematical and astronomical fields). The Tikal was home to an ancient Mayan city and we can now only contemplate the foundation of their community. This site is well-known for its temples (see the picture) but is also composed of causeways, a great place and acropolis.",
             "background": "url('https://cdn.pixabay.com/photo/2020/07/15/17/44/pyramid-5408476_960_720.jpg')"
         },
         {
-            "title": "Atitlan Lake",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "Quetzal",
+            "text": "As of its location, Guatemala has a tropical climate and is home to a rich wildlife and you may encounter jaguars, ocelots, armadillos or toucans. But in this unique environment if there is one species that represents the country, it has to be the Quetzal. The Quetzal is a beautiful bird with a long green tail and a crimson chest. It was a Mayan symbol and today it is the national symbol of Guatemala. It appears on the national flag and it also gave its name to the local currency !",
             "background": "url('https://cdn.pixabay.com/photo/2015/08/15/16/32/lake-atitlan-889749_960_720.jpg')"
         },
         {
             "title": "Antigua Guatemala",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "text": "The history of Guatemala has been hugely impacted by Spain. Indeed, Guatemala was part of the Spanish Empire from the beginning of the 16th century to its independence in 1821. Antigua was the capital of the Captaincy General of Guatemala (which was composed of the major part of Central America) and is famous for its Spanish Baroque-influenced architecture architecture.",
             "background": "url('https://cdn.pixabay.com/photo/2017/05/03/15/32/yellow-2281345_960_720.jpg')"
         },
         {
-            "title": "Quetzal",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "Atitlán Lake",
+            "text": "Guatemala has dozens of volcanoes and they have shaped its geography for ages. The Lake Atitlán is surrounded by three of these volcanoes and it makes it one of the most beautiful lakes in the wolrd (see the picture). Lake Atitlán is an endorheic lake which means that rivers flow into the lake instead of into the ocean. It is partly due to its unique location (surrounded by volcanoes), which makes its maximum depth 340 meters !",
             "background": "url('https://cdn.pixabay.com/photo/2017/03/13/10/31/quetzal-2139297_960_720.jpg')"
         },
         {
-            "title": "Banana Republic",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "Operation PBSUCCESS",
+            "text": "The Operation PBSUCCEESS is a coup organized by the CIA in 1954 to replace the apparently too-much-communist-friendly president by a more-liberal-controllable dictator. This operation leaded to the Guatemalan Civil War that expanded from 1960 to 1996.",
             "background": "url('https://cdn.pixabay.com/photo/2018/09/24/20/12/bananas-3700718_960_720.jpg')"
         }
     ]

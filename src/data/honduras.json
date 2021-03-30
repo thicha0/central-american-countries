@@ -3,28 +3,28 @@
     "countryCode" : "hn",
     "data": [
         {
-            "title": "Honduras",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "Lempira",
+            "text": "Lempira was a Lenca ruler (a Mesoamerican indigenous people) and is famous for leading the resistance against spanish conquistadores during the 1530s. In Guatemala, he is considered a national hero and his name has been given to the national currency.",
             "background": "url('https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')"
         },
         {
-            "title": "Wild Forest",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "The Central American Union",
+            "text": "After the independence from Spain in 1821, the countries of Central America joined Mexico in its First Empire but only for two years. In 1823, these countries (Guatemala, El Salvador, Honduras, Nicaragua, Costa Rica) formed Federal Republic of Central America (also called United Provinces of Central America). Honduran general Francisco Morazán is considered a national hero as he tried as much as he could to maintain the union in Central America. Despite all his efforts, the union collapsed in 1838. The flag of Honduras contains five stars representing each state of the Union.",
             "background": "url('https://images.unsplash.com/photo-1572276596237-5db2c3e16c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')"
         },
         {
-            "title": "Sunny Beach",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "Banana Republic",
+            "text": "In the late nineteeth century, Honduras granted land and lots of priviledge to US fruit companies in return for developing the country (building roads and train tracks mainly). The most famous of these companies is the United Fruit Company which transformed the country into a banana-dependent economy. This led to the famous label of 'Banana Republic'.",
             "background": "url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80')"
         },
         {
-            "title": "City on Winter",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "Swan Islands",
+            "text": "During the Cold War, USA established a military presence in Honduras to support neighboring countries of El Salvador and Nicaragua against communist movements. In the early-1960s, a radio transmitter was set up in the Swan Islands to broadcast anti-Cuban programs in the Caribbean.",
             "background": "url('https://images.unsplash.com/photo-1551009175-8a68da93d5f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80')"
         },
         {
-            "title": "Mountains - Clouds",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "War of Football",
+            "text": "In 1969, the Football War broke out between Honduras and El Salvador. Existing tensions reached their top during a Wolrd Cup qualifier between the two countries, hence the name. This war is also known as the 100 Hour War since a cease-fire was found between the two belligerents after four days of conflit.",
             "background": "url('https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')"
         }
     ]

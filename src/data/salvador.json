@@ -1,30 +1,30 @@
 {
-    "countryName" : "Salvador",
+    "countryName" : "El Salvador",
     "countryCode" : "sv",
     "data": [
         {
-            "title": "Salvador",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "Joya de Cerén",
+            "text": "Joya de Cerén was a small Mayan settlement that was buried under volcanic ash when the Laguna Caldera Volcano erupted in 595. It is known as the Pompei of America.",
             "background": "url('https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')"
         },
         {
-            "title": "Wild Forest",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "Ruta De Las Flores",
+            "text": "Ruta de las Flores is a famous road crossing El Salvador. The road is covered in flowers during the dry season. What makes it a very special course is that it explores the History of El Salvador across coffee plantations and colonial towns.",
             "background": "url('https://images.unsplash.com/photo-1572276596237-5db2c3e16c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')"
         },
         {
-            "title": "Sunny Beach",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "La Matanza",
+            "text": "In the 1930s, El Salvador is living an economic and social due to the crash of 1929. In 1932, an uprising of Salvadoran peasants started and then was joined by communist partisans. It was suppressed firmly by the government which sent the Army to execute the rebels. This event is remembered as La Matanza which litteraly means 'The Massacre'. It had a huge impact on the Salvadorans since it leaded to a rapid and forced assimilation to the occidental way of life for surviving indigenous in order to avoir another blood bath.",
             "background": "url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80')"
         },
         {
-            "title": "City on Winter",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "The Land of Volcanoes",
+            "text": "The country is known as the “Land of Volcanoes”. A well-deserved name since it is home to more than 20 volcanoes with few of them being still active. El Salvador has also history with earthquakes and volcanic eruptions.",
             "background": "url('https://images.unsplash.com/photo-1551009175-8a68da93d5f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80')"
         },
         {
-            "title": "Mountains - Clouds",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "War of Football",
+            "text": "In 1969, the Football War broke out between El Salvador and Honduras. Existing tensions reached their top during a Wolrd Cup qualifier between the two countries, hence the name. This war is also known as the 100 Hour War since a cease-fire was found between the two belligerents after four days of conflit.",
             "background": "url('https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')"
         }
     ]

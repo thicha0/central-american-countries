@@ -3,28 +3,28 @@
     "countryCode" : "cr",
     "data": [
         {
-            "title": "costarica",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "Switzerland of Central America",
+            "text": "Costa Rica is known as the 'Switzerland of Central America'. It is mostly become it maintains neutrality concerning international disputes but also because the country has abolished its army in 1948.",
             "background": "url('https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')"
         },
         {
-            "title": "Wild Forest",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "Bahía Ballena",
+            "text": "Bahía Ballena, litterally the Whale Bay, is a famous Costa Rican beach known for its shape which looks like a whale's tail. It is also a great spot for whale-watching.",
             "background": "url('https://images.unsplash.com/photo-1572276596237-5db2c3e16c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')"
         },
         {
-            "title": "Sunny Beach",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "Ecotourism",
+            "text": "Costa Rica is probably the most-advanced country in ecotourism. Globally, Costa Rica is very environmentally friendly: 99% of its electricity comes from renewable energy, 25% of its land is protected and in 2007 the President Arias declared 'Peace with Nature'.",
             "background": "url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80')"
         },
         {
-            "title": "City on Winter",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "Cocos Island",
+            "text": "Cocos Island is an island located 500 km off the Pacific Costa Rican coast. It is known for tales of lost pirate treasures. As such, the place was affected by lots of visit from treasure hunters but the place is protected as a National Park since 1978.",
             "background": "url('https://images.unsplash.com/photo-1551009175-8a68da93d5f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80')"
         },
         {
-            "title": "Mountains - Clouds",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "Stone spheres",
+            "text": "There are over 300 stone spheres in Costa Rica. They are commonly attributed to the extinct Diquís culture but their exact signifiance remains uncertain.",
             "background": "url('https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')"
         }
     ]

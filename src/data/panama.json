@@ -3,28 +3,28 @@
     "countryCode" : "pa",
     "data": [
         {
-            "title": "Panama",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "Panama Canal",
+            "text": "Panama Canal is a lock-type canal built by the USA during the early XXth century. The canal is 82 km long and is connecting the Caribbean Sea to the Pacific Ocean. The canal has only been under Panama authority since 1999 and it is a huge asset of its economy.",
             "background": "url('https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')"
         },
         {
-            "title": "Wild Forest",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "Panama Hat",
+            "text": "The Panama hat is actually made in... Ecuador. The name comes from the inauguration of the Panama Canal where Theodore Roosevelt was photographed with the hat.",
             "background": "url('https://images.unsplash.com/photo-1572276596237-5db2c3e16c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')"
         },
         {
-            "title": "Sunny Beach",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "Plastic Bottle Village",
+            "text": "The Plastic Bottle Village is a village in Panama where a castle was made with only plastic bottle. It has been made to criticize the use of plastic around the world.",
             "background": "url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80')"
         },
         {
-            "title": "City on Winter",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "Battel of Mata Asnillos",
+            "text": "In 1671, Henry Morgan leaded pirates to a raid of Panama City defended by spanish troops. He took the city and burned it to the ground before leaving. Interestingly enough, instead of being executed in England, he was made governor of Jamaica.",
             "background": "url('https://images.unsplash.com/photo-1551009175-8a68da93d5f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80')"
         },
         {
-            "title": "Mountains - Clouds",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur, cum cupiditate doloremque dolorum eius fuga fugiat illum ipsum laudantium molestias nihil non officia optio quos repellat sint veniam voluptatem.",
+            "title": "Indigenous regions & municipalities",
+            "text": "More than 10% of Panamians are indigenous people. There are five regions in Panama which are recognised by independent laws. Each of them is ruled by the peoples' constitutional rights.",
             "background": "url('https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')"
         }
     ]
