@@ -42,10 +42,6 @@ $flexTransition: 1.6s;
   margin-right: auto;
 }
 
-h1 {
-  @include animation(0.5s);
-}
-
 @for $i from 0 to 10 {
   .panel:nth-child(#{$i}) { @include animation(0.75s + $i * 0.25s); }
 }
@@ -88,7 +84,17 @@ h1 {
 }
 
 #countryTitle {
-  font-size: 3em;
+  @include animation(0.5s);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;  
+
+  h1 {
+    font-size: 3em;
+    margin-left: 1%;
+  }
 }
 
 .background {
@@ -139,6 +145,11 @@ h1 {
   color: white;
   font-size: 20px;
   opacity: 0;
+  text-align: justify;
   @include transition(all 0.1s ease-out 0s);
   @include transform(translateY(25px));
+
+  p {
+    text-indent: 5%;
+  }
 }

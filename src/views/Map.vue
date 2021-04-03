@@ -2,10 +2,10 @@
   <div>
     <CentralAmericaSVG @countrySelected="showCountry" />
     <div v-if="this.title"> <!-- TODO change v-if -> css ? -->
-      <h1 id="countryTitle">
+      <div id="countryTitle">
         <img :src="flag" />
-        {{ title }}
-      </h1>
+        <h1>{{ title }}</h1>
+      </div>
       <expand-component :items="items" width="90vw" height="80vh" />
     </div>
   </div>
