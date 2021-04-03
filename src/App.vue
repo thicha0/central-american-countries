@@ -10,6 +10,15 @@
   </div>
 </template>
 
+<script>
+export default ({
+  mounted() {
+    document.title = 'Central American Countries'
+  },
+})
+</script>
+
+
 <style>
 body {
   background-color: #f2f7f5;

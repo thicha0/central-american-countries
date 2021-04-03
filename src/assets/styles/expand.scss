@@ -1,29 +1,8 @@
+@import "mixins";
+
 // Variables
 $flexTransition: 1.6s;
 
-@mixin transition ($transition) {
-  transition: $transition;
-  -webkit-transition: $transition;
-  -moz-transition: $transition;
-  -ms-transition: $transition;
-}
-
-@mixin transform ($transform) {
-  transform: $transform;
-  -webkit-transform: $transform;
-  -moz-transform: $transform;
-  -ms-transform: $transform;
-}
-
-@mixin animation ($delay) {
-  animation-name: fadeInOpacity;
-  animation-direction: alternate;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-  animation-duration: 1s;
-  animation-delay: $delay;
-  animation-fill-mode: both;
-}
 
 @keyframes fadeInOpacity {
 	0% {
@@ -47,7 +26,6 @@ $flexTransition: 1.6s;
 }
 
 .panel {
-
   overflow: hidden;
   position: relative;
   height: 100%;

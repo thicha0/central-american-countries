@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Country from '@/views/Country.vue'
 import About from '@/views/About.vue'
 import Map from '@/views/Map.vue'
 
@@ -11,22 +10,24 @@ const routes = [
   {
     path: '/about',
     name: 'about',
-    component: About
+    component: About,
+    meta: {
+      title: 'About'
+    }
   },
   {
-    path: '/',
+    path: '*',
     name: 'map',
-    component: Map
+    component: Map,
+    meta: {
+      title: 'Dashboard'
+    }
   },
-  {
-    path: '/country/:country',
-    name: 'country',
-    component: Country
-  }
 ]
 
 const router = new VueRouter({
-  routes
+  routes,
+  mode: 'history'
 })
 
 export default router
