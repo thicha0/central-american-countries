@@ -1,4 +1,13 @@
-# lab
+# Central American Countries
+
+Learn 5 thnigs about each Central American Country:
+- Guatemala
+- Belize
+- El Salvador
+- Honduras
+- Nicaragua
+- Costa Rica
+- Panama
 
 ## Project setup
 ```
@@ -9,3 +18,7 @@ npm install
 ```
 npm run serve
 ```
+
+### References
+- The articles are inspired by Wikipedia articles of the countries: https://www.wikipedia.org/
+- The images are from Pixabay: https://pixabay.com/
