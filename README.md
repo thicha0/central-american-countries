@@ -22,3 +22,4 @@ npm run serve
 ### References
 - The articles are inspired by Wikipedia articles of the countries: https://www.wikipedia.org/
 - The images are from Pixabay: https://pixabay.com/
+- Inspired by: https://github.com/bradtraversy/50projects50days/tree/master/expanding-cards
