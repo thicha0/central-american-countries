@@ -1,20 +1,18 @@
 # Central American Countries
-
 Learn 5 thnigs about each Central American Country:
-- Guatemala
-- Belize
-- El Salvador
-- Honduras
-- Nicaragua
-- Costa Rica
-- Panama
+- Guatemala 🇬🇹
+- Belize 🇧🇿
+- El Salvador 🇸🇻
+- Honduras 🇭🇳
+- Nicaragua 🇳🇮
+- Costa Rica 🇨🇷
+- Panama 🇵🇦
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
