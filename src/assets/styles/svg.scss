@@ -1,43 +1,49 @@
 @import "mixins";
 
 #map {
-    width: 90%;
+    position: absolute;
+    z-index: 1;
     margin: 0;
     left: 1%;
     top: 2%;
+
+    width: 90%;
     @include transition(all 1s ease 0.5s);
-    position: absolute;
-    z-index: 1;
 }
 
 #back {
-    margin-top: 15px;
     position: absolute;
+    z-index: 1;
+    margin-top: 15px;
+    margin-left: 50px;
     left: 1%;
     top: 2%;
+
     white-space: nowrap;
     font-style: normal;
     font-size: 1.1em;
     font-weight: bold;
     text-anchor: start;
     font-family: sans-serif;
-    margin-left: 50px;
-    opacity: 0;
+
     pointer-events: fill !important;
     cursor: pointer;
-    z-index: 1;
+    
+    opacity: 0;
     @include transition(opacity 0.5s ease);
 }
 
 .minimap {
+    position: absolute;
     height: 50px;
     width: 50px !important;
-    @include transition(all 1s ease);
     top: 0;
     left: 0;
-    position: absolute;
+
     pointer-events: fill !important;
     cursor: pointer;
+
+    @include transition(all 1s ease);
 
     ~ #back {
         opacity: 1;
@@ -72,16 +78,19 @@ path {
 }
 
 .country-name {
-    opacity: 0;
     pointer-events: none;
-    @include transition(opacity 0.5s ease);
+    
     font-style: normal;
     font-weight: bold;
     text-anchor: start;
     font-family: sans-serif;
+
     fill-opacity: null;
     stroke-opacity: null;
     stroke-width: 0;
     stroke: #ffffff;
-    fill: #001e1d
+    fill: #001e1d;
+
+    opacity: 0;
+    @include transition(opacity 0.5s ease);
 }

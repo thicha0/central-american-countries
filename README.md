@@ -1,5 +1,5 @@
 # Central American Countries
-Learn 5 thnigs about each Central American Country:
+Learn 5 things about each Central American Country:
 - Guatemala 🇬🇹
 - Belize 🇧🇿
 - El Salvador 🇸🇻
@@ -9,13 +9,15 @@ Learn 5 thnigs about each Central American Country:
 - Panama 🇵🇦
 
 ## Project setup
-```
-npm install
-```
 
-```
-npm run serve
-```
+- Clone the project
+
+- Install the dependencies vith `npm install`
+
+- Running the project: `npm run serve`
+
+- Go to `localhost:8080` on your browser and start learning !
+
 
 ### References
 - The articles are inspired by Wikipedia articles of the countries: https://www.wikipedia.org/

@@ -1,11 +1,11 @@
 <template>
-    <div class="container" :style="containerStyle()">
+    <div class="containerExpand" :style="containerStyle()">
         <div
             v-for="(item, index) in items"
             :key="index"
             @click="activeIndex === index ? activeIndex = null : activeIndex = index"
             class="panel"
-            :style="panelStyle(item, index)"
+            :style="panelStyle()"
         >
             <div class="background" :style="{ backgroundImage: item.background }"></div>
             <div class="gradient"></div>
@@ -51,5 +51,3 @@
         }
     }
 </script>
-
-<style></style>
