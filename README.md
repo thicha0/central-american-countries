@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="src/assets/images/central-america-map.png" alt="Logo" width="256">
+</p>
+
 # Central American Countries
 Learn 5 things about each Central American Country:
 - Guatemala 🇬🇹
