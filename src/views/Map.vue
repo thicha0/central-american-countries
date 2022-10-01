@@ -3,7 +3,7 @@
     <CentralAmericaSVG @countrySelected="showCountry" />
     <div v-if="title">
       <div id="countryTitle">
-        <img :src="flag" :alt="'Flag of ' + title " />
+        <img :src="flag" :alt="'Flag of ' + title" height="40" />
         <h1>{{ title }}</h1>
       </div>
       <expand-component :items="items" width="90vw" height="80vh" />
@@ -40,7 +40,7 @@ export default {
     showCountry(country) {
       import("@/data/" + country + ".json").then(data => {
         this.title = data.default.countryName
-        this.flag = "https://www.countryflags.io/" + data.default.countryCode + "/flat/64.png"
+        this.flag = "https://www.countryflagsapi.com/png/" + data.default.countryCode
         this.items = data.default.data
       }).catch(() => {
         this.title = null

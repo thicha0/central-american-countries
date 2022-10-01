@@ -117,7 +117,7 @@ export default {
       event.target.classList.add("selectedCountry");
       let svg = document.getElementById("map");
       svg.classList.add("minimap");
-      let paths = document.getElementsByClassName("landxx");
+      let paths = Array.from(document.getElementsByClassName("landxx"));
       paths.forEach((path) => {
         path.classList.add("unhoverable");
       });
@@ -128,7 +128,7 @@ export default {
       if (id === "map" || id === "back") {
         let svg = document.getElementById("map");
         svg.classList.remove("minimap");
-        let paths = document.getElementsByClassName("landxx");
+        let paths = Array.from(document.getElementsByClassName("landxx"));
         paths.forEach((path) => {
           path.classList.remove("unhoverable");
           path.classList.remove("selectedCountry");
