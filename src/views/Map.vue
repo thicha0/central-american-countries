@@ -3,7 +3,7 @@
     <CentralAmericaSVG @countrySelected="showCountry" />
     <div v-if="title">
       <div id="countryTitle">
-        <img :src="flag" :alt="'Flag of ' + title" height="40" />
+        <img :src="flag" :alt="'Flag of ' + title" height="40" width="70" />
         <h1>{{ title }}</h1>
       </div>
       <expand-component :items="items" width="90vw" height="80vh" />
