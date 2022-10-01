@@ -5,27 +5,32 @@
         {
             "title": "Joya de Cerén",
             "text": "<p><i><u>Joya de Cerén</i></u> was a small Mayan settlement that was buried under volcanic ash when the Laguna Caldera Volcano erupted in 595. It is known as <i><u>the Pompei of America</i></u>.</p>",
-            "background": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/ES_Joya_Ceren_05_2012_Estructura_9_Area_2_Tamazcal_wide_angle_1479.JPG/1280px-ES_Joya_Ceren_05_2012_Estructura_9_Area_2_Tamazcal_wide_angle_1479.JPG')"
+            "background": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/ES_Joya_Ceren_05_2012_Estructura_9_Area_2_Tamazcal_wide_angle_1479.JPG/1280px-ES_Joya_Ceren_05_2012_Estructura_9_Area_2_Tamazcal_wide_angle_1479.JPG')",
+            "alt": "Ruins of Joya de Cerén"
         },
         {
             "title": "Ruta De Las Flores",
             "text": "<p><i><u>Ruta de las Flores</i></u> is a famous road crossing El Salvador. The road is covered in flowers during the dry season. What makes it a very special course is that it explores the History of El Salvador across coffee plantations and colonial towns.</p>",
-            "background": "url('https://live.staticflickr.com/8146/7179299245_3eeaa604ae_b.jpg')"
+            "background": "url('https://live.staticflickr.com/8146/7179299245_3eeaa604ae_b.jpg')",
+            "alt": "Ruta De Las Flores"
         },
         {
             "title": "La Matanza",
             "text": "<p>In the 1930s, El Salvador is living an economic and social due to the crash of 1929. In 1932, an uprising of Salvadoran peasants started and then was joined by communist partisans. It was suppressed firmly by the government which sent the Army to execute the rebels.</p><p>This event is remembered as <i><u>La Matanza</i></u> which litteraly means 'The Massacre'. It had a huge impact on the Salvadorans since it leaded to a rapid and forced assimilation to the occidental way of life for surviving indigenous in order to avoir another blood bath.</p>",
-            "background": "url('https://cdn.pixabay.com/photo/2016/11/22/20/04/abstract-1850424_960_720.jpg')"
+            "background": "url('https://cdn.pixabay.com/photo/2016/11/22/20/04/abstract-1850424_960_720.jpg')",
+            "alt": "Abstract wall"
         },
         {
             "title": "The Land of Volcanoes",
             "text": "<p>The country is known as the <i><u>“Land of Volcanoes”</i></u>. A well-deserved name since it is home to more than 20 volcanoes with few of them being still active. El Salvador has also history with earthquakes and volcanic eruptions.</p>",
-            "background": "url('https://cdn.pixabay.com/photo/2017/02/21/02/18/isalco-2084480_960_720.jpg')"
+            "background": "url('https://cdn.pixabay.com/photo/2017/02/21/02/18/isalco-2084480_960_720.jpg')",
+            "alt": "Volcano"
         },
         {
             "title": "Football War",
             "text": "<p>In 1969, the <i><u>Football War</i></u> broke out between El Salvador and Honduras. Existing tensions reached their top during a Wolrd Cup qualifier between the two countries, hence the name.</p><p>This war is also known as the 100 Hour War since a cease-fire was found between the two belligerents after four days of conflit.</p>",
-            "background": "url('https://cdn.pixabay.com/photo/2016/05/16/21/07/football-1396740_960_720.jpg')"
+            "background": "url('https://cdn.pixabay.com/photo/2016/05/16/21/07/football-1396740_960_720.jpg')",
+            "alt": "Football ball"
         }
     ]
 }

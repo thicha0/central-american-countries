@@ -5,27 +5,32 @@
         {
             "title": "Panama Canal",
             "text": "<p><i><u>Panama Canal</i></u> is a lock-type canal built by the USA during the early XXth century. The canal is 82 km long and is connecting the Caribbean Sea to the Pacific Ocean. The canal has only been under Panama authority since 1999 and it is a huge asset of its economy.</p>",
-            "background": "url('https://cdn.pixabay.com/photo/2014/03/26/20/46/panama-canal-298972_960_720.jpg')"
+            "background": "url('https://cdn.pixabay.com/photo/2014/03/26/20/46/panama-canal-298972_960_720.jpg')",
+            "alt": "Panama Canal"
         },
         {
             "title": "Panama Hat",
             "text": "<p>The <i><u>Panama hat</i></u> is actually made in... Ecuador. The name comes from the inauguration of the Panama Canal where Theodore Roosevelt was photographed with the hat.</p>",
-            "background": "url('https://cdn.pixabay.com/photo/2014/09/05/00/05/hat-436029_960_720.jpg')"
+            "background": "url('https://cdn.pixabay.com/photo/2014/09/05/00/05/hat-436029_960_720.jpg')",
+            "alt": "Panama Hat"
         },
         {
             "title": "Plastic Bottle Village",
             "text": "<p>The <i><u>Plastic Bottle Village</i></u> is a village in Panama where a castle was made with only plastic bottle. It has been made to criticize the use of plastic around the world.</p>",
-            "background": "url('https://live.staticflickr.com/966/40973756055_103a8dcb1c_b.jpg')"
+            "background": "url('https://live.staticflickr.com/966/40973756055_103a8dcb1c_b.jpg')",
+            "alt": "Plastic Bottle Village"
         },
         {
             "title": "Battel of Mata Asnillos",
             "text": "<p>In 1671, Henry Morgan leaded pirates to a <i><u>raid of Panama City</i></u> defended by spanish troops. He took the city and burned it to the ground before leaving. Interestingly enough, instead of being executed in England, he was made governor of Jamaica.</p>",
-            "background": "url('https://cdn.pixabay.com/photo/2017/04/04/19/47/ship-2202910_960_720.jpg')"
+            "background": "url('https://cdn.pixabay.com/photo/2017/04/04/19/47/ship-2202910_960_720.jpg')",
+            "alt": "Pirate ships"
         },
         {
             "title": "Indigenous regions & municipalities",
             "text": "<p>More than 10% of Panamians are <i><u>indigenous people</i></u>. There are five regions in Panama which are recognised by independent laws. Each of them is ruled by the peoples' constitutional rights.</p>",
-            "background": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Mujeres_de_la_etnia_Ember%C3%A1.jpg/800px-Mujeres_de_la_etnia_Ember%C3%A1.jpg')"
+            "background": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Mujeres_de_la_etnia_Ember%C3%A1.jpg/800px-Mujeres_de_la_etnia_Ember%C3%A1.jpg')",
+            "alt": "Indigenous people"
         }
     ]
 }

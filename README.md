@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="src/assets/images/central-america-map.png" alt="Logo" width="256">
+    <img src="src/assets/images/central-america-map.png" alt="Map of central america" width="256">
 </p>
 
 # Central American Countries

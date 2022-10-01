@@ -1,9 +1,9 @@
 <template>
   <div>
     <CentralAmericaSVG @countrySelected="showCountry" />
-    <div v-if="this.title"> <!-- TODO change v-if -> css ? -->
+    <div v-if="title">
       <div id="countryTitle">
-        <img :src="flag" />
+        <img :src="flag" :alt="'Flag of ' + title " />
         <h1>{{ title }}</h1>
       </div>
       <expand-component :items="items" width="90vw" height="80vh" />

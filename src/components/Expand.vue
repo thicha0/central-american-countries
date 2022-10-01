@@ -7,9 +7,9 @@
             class="panel"
             :style="panelStyle()"
         >
-            <div class="background" :style="{ backgroundImage: item.background }"></div>
+            <div class="background" :style="{ backgroundImage: item.background }" :title="item.alt"></div>
             <div class="gradient"></div>
-            <h3 class="title">{{ item.title }}</h3>
+            <h1 class="title">{{ item.title }}</h1>
             <p class="text" v-html="item.text"></p>
         </div>
     </div>

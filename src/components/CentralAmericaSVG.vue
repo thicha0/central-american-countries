@@ -103,9 +103,9 @@
       </g>
     </g>
   </svg>
-  <a id="back" @click="backToMap">
+  <div id="back" @click="backToMap">
       Back to the map
-  </a>
+  </div>
   </div>
 </template>
 

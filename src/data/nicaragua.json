@@ -5,27 +5,32 @@
         {
             "title": "Lake Nicaragua",
             "text": "<p>The <i><u>Lake Nicaragua</i></u> is a huge lake (8 264 square kilometers) that is quite unique. It is so large that it has an archipel of volcanic islands. It is also famous for being the only freshwater to be host to sharks !</p>",
-            "background": "url('https://cdn.pixabay.com/photo/2019/07/22/10/42/kayaking-4354776_960_720.jpg')"
+            "background": "url('https://cdn.pixabay.com/photo/2019/07/22/10/42/kayaking-4354776_960_720.jpg')",
+            "alt": "Kayak on Lake Nicaraga"
         },
         {
             "title": "Constellations",
             "text": "<p>Due to its equatorial location, Nicaragua is a unique place for <i><u>stargazing</i></u>. Out of the 88 constellations existing, 86 of them are visible in the Nicaraguan sky !</p>",
-            "background": "url('https://cdn.pixabay.com/photo/2015/10/12/14/59/milky-way-984050_960_720.jpg')"
+            "background": "url('https://cdn.pixabay.com/photo/2015/10/12/14/59/milky-way-984050_960_720.jpg')",
+            "alt": "Milky Way"
         },
         {
             "title": "No actual adress",
             "text": "<p>In Nicaragua, there is no such things as street names or numbers. To go to a place, you will ususally get directions like: two blocks north from the school and four blocks up the hill.</p>",
-            "background": "url('https://cdn.pixabay.com/photo/2018/03/24/10/48/change-3256329_960_720.jpg')"
+            "background": "url('https://cdn.pixabay.com/photo/2018/03/24/10/48/change-3256329_960_720.jpg')",
+            "alt": "Empty road sign"
         },
         {
             "title": "León Viejo",
             "text": "<p>The ruins of <i><u>León Viejo</i></u>  is the oldest city in Central America, being 1500 years old.</p>",
-            "background": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Ruinas_leon_viejo36.jpg/1200px-Ruinas_leon_viejo36.jpg')"
+            "background": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Ruinas_leon_viejo36.jpg/1200px-Ruinas_leon_viejo36.jpg')",
+            "alt": "Ruins of Leon Viejo"
         },
         {
             "title": "USA",
             "text": "<p>The History of Nicaragua was hugely impacted by the <i><u>United States</i></u>. The United Fruit company established its fruit business there, the army occupied the place, the national banks were controlled and the latest dictators were financially supported since they were anti-communist.</p>",
-            "background": "url('https://cdn.pixabay.com/photo/2015/07/10/17/21/american-839775_960_720.jpg')"
+            "background": "url('https://cdn.pixabay.com/photo/2015/07/10/17/21/american-839775_960_720.jpg')",
+            "alt": "American"
         }
     ]
 }
