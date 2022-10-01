@@ -11,8 +11,8 @@
         {
             "title": "Constellations",
             "text": "<p>Due to its equatorial location, Nicaragua is a unique place for <i><u>stargazing</i></u>. Out of the 88 constellations existing, 86 of them are visible in the Nicaraguan sky !</p>",
-            "background": "url('https://cdn.pixabay.com/photo/2015/10/12/14/59/milky-way-984050_960_720.jpg')",
-            "alt": "Milky Way"
+            "background": "url('https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_960_720.jpg')",
+            "alt": "Night sky"
         },
         {
             "title": "No actual adress",
@@ -29,8 +29,8 @@
         {
             "title": "USA",
             "text": "<p>The History of Nicaragua was hugely impacted by the <i><u>United States</i></u>. The United Fruit company established its fruit business there, the army occupied the place, the national banks were controlled and the latest dictators were financially supported since they were anti-communist.</p>",
-            "background": "url('https://cdn.pixabay.com/photo/2015/07/10/17/21/american-839775_960_720.jpg')",
-            "alt": "American"
+            "background": "url('https://cdn.pixabay.com/photo/2016/03/31/02/22/flag-1291945_960_720.jpg')",
+            "alt": "Flag of the USA"
         }
     ]
 }
