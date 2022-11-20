@@ -8,6 +8,9 @@
       </div>
       <expand-component :items="items" width="90vw" height="80vh" />
     </div>
+    <h1 v-else style="display: none">
+      Map
+    </h1>
   </div>
 </template>
 
