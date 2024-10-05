@@ -17,6 +17,7 @@
 <script>
 import CentralAmericaSVG from "@/components/CentralAmericaSVG.vue";
 import ExpandComponent from "@/components/Expand.vue";
+import * as dataFiles from "@/data/index.js";
 
 export default {
   name: "Home",
@@ -24,7 +25,7 @@ export default {
     CentralAmericaSVG,
     ExpandComponent,
   },
-  data() {
+  data () {
     return {
       title: null,
       items: null,
@@ -41,17 +42,23 @@ export default {
     },
   },
   methods: {
-    async showCountry(country) {
+    showCountry(country) {
       if (!country) {
+        this.title = null
+        this.flag = ''
+        this.items = null
         return
       }
       try {
-        const data = await import(/* @vite-ignore */"@/data/" + country + ".json")
-        this.title = data.default.countryName
-        this.flag = "https://flagsapi.com/" + data.default.countryCode.toUpperCase() + "/flat/64.png"
-        this.items = data.default.data
+        const data = dataFiles[country];
+        if (!data) {
+          throw new Error(`No data found for ${country}.`)
+        }
+        this.title = data.countryName
+        this.flag = "https://flagsapi.com/" + data.countryCode.toUpperCase() + "/flat/64.png"
+        this.items = data.data
       } catch(e) {
-        console.log(e)
+        console.error(e);
         this.title = null
         this.flag = ''
         this.items = null
