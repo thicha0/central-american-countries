@@ -43,7 +43,7 @@ export default {
   methods: {
     async showCountry(country) {
       try {
-        const data = await import("../data/" + country + ".json")
+        const data = await import(/* @vite-ignore */"../data/" + country + ".json")
         this.title = data.default.countryName
         this.flag = "https://flagsapi.com/" + data.default.countryCode.toUpperCase() + "/flat/64.png"
         this.items = data.default.data

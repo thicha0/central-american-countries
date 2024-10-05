@@ -9,18 +9,17 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src"
   },
   "dependencies": {
+    "@vitejs/plugin-vue2": "^2.3.1",
     "vite-plugin-compression": "^0.5.1",
     "vue": "^2.7.13",
     "vue-meta": "^2.4.0",
     "vue-router": "^3.6.5"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.6.1",
     "eslint": "^8.0.0",
     "eslint-plugin-vue": "^8.0.0",
     "sass": "^1.32.8",
-    "vite": "^2.5.4",
-    "vite-plugin-vue2": "^2.0"
+    "vite": "^3.2.11"
   },
   "eslintConfig": {
     "root": true,
@@ -38,5 +37,8 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "overrides": {
+    "postcss": "^8.4.47"
+  }
 }
