@@ -4,7 +4,7 @@
     "data": [
         {
             "title": "Switzerland of Central America",
-            "text": "<p>Costa Rica is known as the <i><u>'Switzerland of Central America'</i></u>. It is mostly become it maintains neutrality concerning international disputes but also because the country has abolished its army in 1948.</p>",
+            "text": "<p>Costa Rica is known as the <i><b>'Switzerland of Central America'</i></b>. It is mostly become it maintains neutrality concerning international disputes but also because the country has abolished its army in 1948.</p>",
             "background": "url('https://cdn.pixabay.com/photo/2018/05/24/09/54/dove-3426187_960_720.jpg')",
             "alt": "Dove"
         },
@@ -16,19 +16,19 @@
         },
         {
             "title": "Ecotourism",
-            "text": "<p>Costa Rica is probably the most-advanced country in <i><u>ecotourism</i></u>. Globally, Costa Rica is very environmentally friendly: 99% of its electricity comes from renewable energy, 25% of its land is protected and in 2007 the President Arias declared 'Peace with Nature'.</p>",
+            "text": "<p>Costa Rica is probably the most-advanced country in <i><b>ecotourism</i></b>. Globally, Costa Rica is very environmentally friendly: 99% of its electricity comes from renewable energy, 25% of its land is protected and in 2007 the President Arias declared 'Peace with Nature'.</p>",
             "background": "url('https://cdn.pixabay.com/photo/2020/06/06/00/05/green-water-5264864_960_720.jpg')",
             "alt": "Green water with cascade"
         },
         {
             "title": "Cocos Island",
-            "text": "<p><i><u>Cocos Island</i></u> is an island located 500 km off the Pacific Costa Rican coast. It is known for tales of lost pirate treasures. As such, the place was affected by lots of visit from treasure hunters but the place is protected as a National Park since 1978.</p>",
+            "text": "<p><i><b>Cocos Island</i></b> is an island located 500 km off the Pacific Costa Rican coast. It is known for tales of lost pirate treasures. As such, the place was affected by lots of visit from treasure hunters but the place is protected as a National Park since 1978.</p>",
             "background": "url('https://cdn.pixabay.com/photo/2017/07/22/11/46/adventure-2528477_960_720.jpg')",
             "alt": "Exploration tools"
         },
         {
             "title": "Stone spheres",
-            "text": "<p>There are over 300 <i><u>stone spheres</i></u> in Costa Rica. They are commonly attributed to the extinct Diquís culture but their exact signifiance remains uncertain.</p>",
+            "text": "<p>There are over 300 <i><b>stone spheres</i></b> in Costa Rica. They are commonly attributed to the extinct Diquís culture but their exact signifiance remains uncertain.</p>",
             "background": "url('https://upload.wikimedia.org/wikipedia/commons/7/7e/Stone_spheres_of_Costa_Rica._Museo_Nacional.jpg')",
             "alt": "Stone spheres"
         }

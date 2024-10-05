@@ -4,31 +4,31 @@
     "data": [
         {
             "title": "English",
-            "text": "<p>When you think of Central American countries, you might expect their official language to be Spanish. Surprisingly enough, in Belize, the official language is... <i><u>English</i></u> !</p><p>Other languages are also recognized (Kriol, Spanish, Garifuna, Maya...) but as Belize was a colony of the Crown until 1981, it has inherited its language. Since its independance, it has become a member of the Commonwealth.</p>",
+            "text": "<p>When you think of Central American countries, you might expect their official language to be Spanish. Surprisingly enough, in Belize, the official language is... <i><b>English</i></b> !</p><p>Other languages are also recognized (Kriol, Spanish, Garifuna, Maya...) but as Belize was a colony of the Crown until 1981, it has inherited its language. Since its independance, it has become a member of the Commonwealth.</p>",
             "background": "url('https://cdn.pixabay.com/photo/2016/12/15/01/27/british-flag-1907933_960_720.jpg')",
             "alt": "The Union Jack"
         },
         {
             "title": "Belmopan",
-            "text": "<p>The former capital of Belize, <i><u>Belize City</i></u>, was located on the coast and has been devastated by Hurricane Hattie in 1961 (half of the city was destroyed).</p><p>Thus, in 1970, the government moved to <i><u>Belmopan</i></u>, a new-built city situated inland. The name of the city comes from the union of the Belize and the Mopan rivers.</p>",
+            "text": "<p>The former capital of Belize, <i><b>Belize City</i></b>, was located on the coast and has been devastated by Hurricane Hattie in 1961 (half of the city was destroyed).</p><p>Thus, in 1970, the government moved to <i><b>Belmopan</i></b>, a new-built city situated inland. The name of the city comes from the union of the Belize and the Mopan rivers.</p>",
             "background": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Belmopan_Belize_View.jpg/1024px-Belmopan_Belize_View.jpg')",
             "alt": "View of Belmopan"
         },
         {
             "title": "The Great Blue Hole",
-            "text": "<p>The <i><u>Great Blue Hole</i></u> bears its name well. It is a marine hole located off the coast of Belize in the atoll of Lighthouse Reef. It is a circular hole of 124 meters deep. It is a popular spot for tourism and scuba diving.</p>",
+            "text": "<p>The <i><b>Great Blue Hole</i></b> bears its name well. It is a marine hole located off the coast of Belize in the atoll of Lighthouse Reef. It is a circular hole of 124 meters deep. It is a popular spot for tourism and scuba diving.</p>",
             "background": "url('https://upload.wikimedia.org/wikipedia/commons/6/61/Great_Blue_Hole.jpg')",
             "alt": "The Great Blue Hole"
         },
         {
             "title": "Mixed culture",
-            "text": "<p>Belize is a unique place where several cultures met. As of its location, it has a mix of <i><u>Central American</i></u> (Maya, Garifuna) and <i><u>Carribean</i></u> (Creole) cultures but it also got influenced by <i><u>Spanish and British</i></u> cultures due to the colonization.</p>",
+            "text": "<p>Belize is a unique place where several cultures met. As of its location, it has a mix of <i><b>Central American</i></b> (Maya, Garifuna) and <i><b>Carribean</i></b> (Creole) cultures but it also got influenced by <i><b>Spanish and British</i></b> cultures due to the colonization.</p>",
             "background": "url('https://cdn.pixabay.com/photo/2018/02/13/21/00/diversity-3151613_960_720.jpg')",
             "alt": "Mixed culture image"
         },
         {
             "title": "Coral reef",
-            "text": "<p>The <i><u>Belize Coral Reef</i></u> is part of the Mesoamerican Barrier Reef System which is the second largest coral reef system in the world after the Great Barrier Reef in Australia.</p>",
+            "text": "<p>The <i><b>Belize Coral Reef</i></b> is part of the Mesoamerican Barrier Reef System which is the second largest coral reef system in the world after the Great Barrier Reef in Australia.</p>",
             "background": "url('https://cdn.pixabay.com/photo/2018/08/18/18/26/coral-3615231_960_720.jpg')",
             "alt": "Coral reef"
         }
