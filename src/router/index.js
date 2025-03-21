@@ -1,24 +1,20 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Map from '@/views/Map.vue'
-
-
-Vue.use(VueRouter)
+import { createRouter, createWebHistory } from 'vue-router';
+import Map from '@/views/Map.vue';
 
 const routes = [
   {
-    path: '*',
+    path: '/:pathMatch(.*)*',
     name: 'map',
     component: Map,
     meta: {
       title: 'Dashboard'
     }
   },
-]
+];
 
-const router = new VueRouter({
+const router = createRouter({
+  history: createWebHistory(),
   routes,
-  mode: 'history'
-})
+});
 
-export default router
+export default router;

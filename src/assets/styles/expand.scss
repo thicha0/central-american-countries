@@ -1,4 +1,4 @@
-@import "mixins";
+@use "mixins" as mixins;
 
 // Variables
 $flexTransition: 1.6s;
@@ -10,7 +10,7 @@ $flexTransition: 1.6s;
 
   justify-content: center;
   align-items: center;  
-  @include animation(0.5s);
+  @include mixins.animation(0.5s);
 
   h1 {
     font-size: 3em;
@@ -26,7 +26,7 @@ $flexTransition: 1.6s;
 
 // Fade animation for panels, one appearance every 0.25s
 @for $i from 0 to 10 {
-  .panel:nth-child(#{$i}) { @include animation(0.75s + $i * 0.25s); }
+  .panel:nth-child(#{$i}) { @include mixins.animation(0.75s + $i * 0.25s); }
 }
 
 .panel {
@@ -38,7 +38,7 @@ $flexTransition: 1.6s;
   border-radius: 20px;
   overflow: hidden;
   opacity: 1;
-  @include transition(flex $flexTransition ease);
+  @include mixins.transition(flex $flexTransition ease);
 
   &:hover {
     flex: 5 1 auto;
@@ -50,19 +50,19 @@ $flexTransition: 1.6s;
     .gradient {
       background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.9) 60%,rgba(0,0,0,0.9) 70%);
       opacity: 1;
-      @include transform(translateY(0));
-      @include transition(all 0.3s ease-in $flexTransition);
+      @include mixins.transform(translateY(0));
+      @include mixins.transition(all 0.3s ease-in $flexTransition);
     }
 
     .title {
       opacity: 1;
-      @include transition(all 0.3s ease-in $flexTransition);
+      @include mixins.transition(all 0.3s ease-in $flexTransition);
     }
 
     .text {
       opacity: 1;
-      @include transform(translateY(0));
-      @include transition(all 0.3s ease-in $flexTransition);
+      @include mixins.transform(translateY(0));
+      @include mixins.transition(all 0.3s ease-in $flexTransition);
     }
   }
 }
@@ -79,7 +79,7 @@ $flexTransition: 1.6s;
   background-repeat: no-repeat;
 
   filter: grayscale(65%);
-  @include transition(filter 1s ease);
+  @include mixins.transition(filter 1s ease);
 }
 
 .gradient {
@@ -90,8 +90,8 @@ $flexTransition: 1.6s;
   left: 0;
 
   opacity: 0;
-  @include transition(all 0.1s ease-out 0s);
-  @include transform(translateY(100px));
+  @include mixins.transition(all 0.1s ease-out 0s);
+  @include mixins.transform(translateY(100px));
 }
 
 .title {
@@ -103,7 +103,7 @@ $flexTransition: 1.6s;
   opacity: 0;
   color: white;
   font-size: 24px;
-  @include transition(opacity 0.6s ease-in 0.2s);
+  @include mixins.transition(opacity 0.6s ease-in 0.2s);
 }
 
 .text {
@@ -114,6 +114,6 @@ $flexTransition: 1.6s;
   color: white;
   font-size: 1em;
   opacity: 0;
-  @include transition(all 0.1s ease-out 0s);
-  @include transform(translateY(25px));
+  @include mixins.transition(all 0.1s ease-out 0s);
+  @include mixins.transform(translateY(25px));
 }

@@ -1,14 +1,24 @@
 <template>
   <div>
-    <CentralAmericaSVG @countrySelected="showCountry" />
+    <CentralAmericaSVG @country-selected="showCountry" />
     <div v-if="title">
       <div id="countryTitle">
-        <img :src="flag" :alt="'Flag of ' + title" />
+        <img
+          :src="flag"
+          :alt="'Flag of ' + title"
+        >
         <h1>{{ title }}</h1>
       </div>
-      <expand-component :items="items" width="90vw" height="80vh" />
+      <expand-component
+        :items="items"
+        width="90vw"
+        height="80vh"
+      />
     </div>
-    <h1 v-else style="display: none">
+    <h1
+      v-else
+      style="display: none"
+    >
       Map
     </h1>
   </div>
@@ -20,7 +30,7 @@ import ExpandComponent from "@/components/Expand.vue";
 import * as dataFiles from "@/data/index.js";
 
 export default {
-  name: "Home",
+  name: "CentralAmericaMap",
   components: {
     CentralAmericaSVG,
     ExpandComponent,

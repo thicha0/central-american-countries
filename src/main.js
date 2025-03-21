@@ -1,18 +1,18 @@
-import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
-import VueMeta from 'vue-meta'
-
-Vue.config.productionTip = false
-
-Vue.use(VueMeta)
+import { createApp } from 'vue';
+import { createHead } from '@vueuse/head';
+import App from './App.vue';
+import router from './router';
 
 // Global styles
-import '@/assets/styles/app.scss'
-import '@/assets/styles/expand.scss'
-import '@/assets/styles/svg.scss'
+import '@/assets/styles/app.scss';
+import '@/assets/styles/expand.scss';
+import '@/assets/styles/svg.scss';
 
-new Vue({
-  router,
-  render: h => h(App)
-}).$mount('#app')
+// Setup @vueuse/head for meta management
+const app = createApp(App);
+const head = createHead();
+
+app.use(router);
+app.use(head);
+
+app.mount('#app');

@@ -1,4 +1,4 @@
-@import "mixins";
+@use "mixins" as mixins;
 
 #map {
     position: absolute;
@@ -8,7 +8,7 @@
     top: 2%;
 
     width: 90%;
-    @include transition(all 1s ease 0.5s);
+    @include mixins.transition(all 1s ease 0.5s);
 }
 
 #back {
@@ -29,7 +29,7 @@
     cursor: pointer;
     
     opacity: 0;
-    @include transition(opacity 0.5s ease);
+    @include mixins.transition(opacity 0.5s ease);
 }
 
 .minimap {
@@ -42,11 +42,11 @@
     pointer-events: fill !important;
     cursor: pointer;
 
-    @include transition(all 1s ease);
+    @include mixins.transition(all 1s ease);
 
     ~ #back {
         opacity: 1;
-        @include transition(opacity 0.5s ease 3s);
+        @include mixins.transition(opacity 0.5s ease 3s);
     }
 }
 
@@ -90,5 +90,5 @@ path {
     fill: #001e1d;
 
     opacity: 0;
-    @include transition(opacity 0.5s ease);
+    @include mixins.transition(opacity 0.5s ease);
 }

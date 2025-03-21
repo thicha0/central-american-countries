@@ -1,28 +1,35 @@
 <template>
-    <div class="containerExpand" :style="containerStyle()">
-        <div
-            v-for="(item, index) in items"
-            :key="index"
-            @click="activeIndex === index ? activeIndex = null : activeIndex = index"
-            class="panel"
-            :style="panelStyle()"
-        >
-            <div class="background" :style="{ backgroundImage: item.background }" :title="item.alt"></div>
-            <div class="gradient"></div>
-            <h1 class="title">{{ item.title }}</h1>
-            <p class="text" v-html="item.text"></p>
-        </div>
+  <div
+    class="containerExpand"
+    :style="containerStyle()"
+  >
+    <div
+      v-for="(item, index) in items"
+      :key="index"
+      class="panel"
+      :style="panelStyle()"
+      @click="activeIndex === index ? activeIndex = null : activeIndex = index"
+    >
+      <div
+        class="background"
+        :style="{ backgroundImage: item.background }"
+        :title="item.alt"
+      />
+      <div class="gradient" />
+      <h1 class="title">
+        {{ item.title }}
+      </h1>
+      <p
+        class="text"
+        v-html="item.text"
+      />
     </div>
+  </div>
 </template>
 
 <script>
     export default {
-        name: "Expand",
-        data () {
-            return {
-                activeIndex: null,
-            }
-        },
+        name: "ExpandablePanel",
         props: {
             items: {
                 type: Array,
@@ -36,6 +43,11 @@
                 type: String,
                 default: '80vh'
             },
+        },
+        data () {
+            return {
+                activeIndex: null,
+            }
         },
         methods: {
             containerStyle () {
