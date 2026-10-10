@@ -1,0 +1,56 @@
+name: Check links
+
+# External images and flags can disappear without any code change:
+# check them on PRs that touch them, and once a month.
+on:
+  pull_request:
+    paths:
+      - "src/data/**"
+      - "index.html"
+      - "README.md"
+      - ".github/workflows/links.yml"
+  schedule:
+    - cron: "0 6 1 * *" # 1st of every month, 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          # Only web links; 429 (rate limited, e.g. Wikimedia) is not a dead link
+          args: >-
+            --no-progress
+            --max-retries 3
+            --max-concurrency 4
+            --accept 200..=299,429
+            --scheme https --scheme http
+            --root-dir ${{ github.workspace }}
+            'src/data/*.json' index.html README.md
+          fail: ${{ github.event_name == 'pull_request' }}
+
+      # Scheduled/manual runs: report in a single "broken-links" issue
+      # (new comment if one is already open) instead of one issue per run
+      - name: Report broken links
+        if: github.event_name != 'pull_request' && steps.lychee.outputs.exit_code != 0
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create broken-links --color d73a4a --description "Dead external link" --force
+          issue=$(gh issue list --label broken-links --state open --json number --jq '.[0].number')
+          if [ -n "$issue" ]; then
+            gh issue comment "$issue" --body-file lychee/out.md
+          else
+            gh issue create --title "Broken links detected" --label broken-links --body-file lychee/out.md
+          fi
