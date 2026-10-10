@@ -3,7 +3,17 @@
 body {
     background-color: #f2f7f5;
 }
-  
+
 #app {
     font-family: Arvo, Helvetica, Arial, sans-serif;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+    pointer-events: none;
+  }
+  100% {
+    opacity: 1;
+  }
 }

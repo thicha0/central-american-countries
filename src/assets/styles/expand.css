@@ -1,0 +1,122 @@
+/* Same values as the former expand.scss: $flexTransition = 1.6s */
+
+#countryTitle {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+  animation: fadeInOpacity 1s ease-in 0.5s 1 alternate both;
+}
+
+#countryTitle h1 {
+  font-size: 3em;
+  margin-left: 1%;
+}
+
+.containerExpand {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Fade animation for panels, one appearance every 0.25s */
+.panel:nth-child(1) { animation: fadeInOpacity 1s ease-in 1s 1 alternate both; }
+.panel:nth-child(2) { animation: fadeInOpacity 1s ease-in 1.25s 1 alternate both; }
+.panel:nth-child(3) { animation: fadeInOpacity 1s ease-in 1.5s 1 alternate both; }
+.panel:nth-child(4) { animation: fadeInOpacity 1s ease-in 1.75s 1 alternate both; }
+.panel:nth-child(5) { animation: fadeInOpacity 1s ease-in 2s 1 alternate both; }
+.panel:nth-child(6) { animation: fadeInOpacity 1s ease-in 2.25s 1 alternate both; }
+.panel:nth-child(7) { animation: fadeInOpacity 1s ease-in 2.5s 1 alternate both; }
+.panel:nth-child(8) { animation: fadeInOpacity 1s ease-in 2.75s 1 alternate both; }
+.panel:nth-child(9) { animation: fadeInOpacity 1s ease-in 3s 1 alternate both; }
+
+.panel {
+  position: relative;
+  flex: 0.8 1 auto;
+  margin: 10px;
+  height: 100%;
+
+  border-radius: 20px;
+  overflow: hidden;
+  opacity: 1;
+  transition: flex 1.6s ease;
+}
+
+.panel:hover {
+  flex: 5 1 auto;
+}
+
+.panel:hover .background {
+  filter: grayscale(0);
+}
+
+.panel:hover .gradient {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.9) 60%, rgba(0, 0, 0, 0.9) 70%);
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.3s ease-in 1.6s;
+}
+
+.panel:hover .title {
+  opacity: 1;
+  transition: all 0.3s ease-in 1.6s;
+}
+
+.panel:hover .text {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.3s ease-in 1.6s;
+}
+
+.background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  background-size: cover; /* TODO size ok ?? */
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  filter: grayscale(65%);
+  transition: filter 1s ease;
+}
+
+.gradient {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  opacity: 0;
+  transition: all 0.1s ease-out 0s;
+  transform: translateY(100px);
+}
+
+.title {
+  position: absolute;
+  margin: 0;
+  bottom: 20px;
+  left: 20px;
+
+  opacity: 0;
+  color: white;
+  font-size: 24px;
+  transition: opacity 0.6s ease-in 0.2s;
+}
+
+.text {
+  position: absolute;
+  margin: 0% 8%;
+  bottom: 15%;
+
+  color: white;
+  font-size: 1em;
+  opacity: 0;
+  transition: all 0.1s ease-out 0s;
+  transform: translateY(25px);
+}

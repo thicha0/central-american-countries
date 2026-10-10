@@ -14,13 +14,13 @@ Learn 5 things about each Central American Country:
 
 ## Project setup
 
+Plain HTML, CSS and JavaScript: no framework, no dependencies, no build step.
+
 - Clone the project
 
-- Install the dependencies vith `npm install`
+- Serve the folder with any static server (ES modules and JSON imports need HTTP, not `file://`), for example `npx serve` or the VS Code Live Server extension
 
-- Running the project: `npm run serve`
-
-- Go to `localhost:8080` on your browser and start learning !
+- Open the served URL in your browser and start learning !
 
 
 ### References
