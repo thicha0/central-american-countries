@@ -1,0 +1,4 @@
+[build]
+  # Static site: no build step, served as-is from the repository root
+  command = "echo No build step"
+  publish = "."
